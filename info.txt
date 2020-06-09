@@ -1,6 +1,6 @@
-mvn install:install-file -Dfile="C:\IdeaProjects\oracleDriver\lib\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar
-mvn deploy:deploy-file -Dfile="C:\IdeaProjects\oracleDriver\lib\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar -DgeneratePom=true -DrepositoryId=nexus -Durl=http://localhost:8081/repository/maven-releases/
-mvn deploy:deploy-file -Dfile="C:\IdeaProjects\oracleDriver\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2-SNAPSHOT -Dpackaging=jar -DgeneratePom=true -DrepositoryId=nexus -Durl=http://localhost:8081/repository/maven-snapshots/
+mvn install:install-file -Dfile="E:\IdeaProjects\oracleDriver\lib\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar
+mvn deploy:deploy-file -Dfile="E:\IdeaProjects\oracleDriver\lib\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar -DgeneratePom=true -DrepositoryId=nexus -Durl=http://localhost:8081/repository/maven-releases/
+mvn deploy:deploy-file -Dfile="E:\IdeaProjects\oracleDriver\ojdbc7-12.1.0.2.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2-SNAPSHOT -Dpackaging=jar -DgeneratePom=true -DrepositoryId=nexus -Durl=http://localhost:8081/repository/maven-snapshots/
 -- -U forces update in cache
 mvn compile -U
 mvn package -U
